@@ -1,4 +1,4 @@
-  <?php
+<?php
 
   $hname = 'localhost';
   $uname = 'root';
@@ -26,7 +26,7 @@
     $con = $GLOBALS['con'];
     $res = mysqli_query($con, "SELECT * FROM $table");
     return $res;
-  } 
+  }
   
   function select($sql, $values, $datatypes) {
     $con = $GLOBALS['con'];
