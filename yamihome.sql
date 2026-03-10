@@ -1,5 +1,4 @@
 
-
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
@@ -10,6 +9,11 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
 
+--
+
+--
+
+-- --------------------------------------------------------
 
 --
 -- Cấu trúc bảng cho bảng `admin_cred`
@@ -135,7 +139,7 @@ CREATE TABLE `contact_details` (
 --
 
 INSERT INTO `contact_details` (`sr_no`, `address`, `gmap`, `pn1`, `email`, `fb`, `insta`, `tw`, `iframe`) VALUES
-(1, 'Da Nang', 'https://maps.app.goo.gl/Xp6WJmcDaHCa2orr7', '',https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d501725.4184356321!2d106.3655589082179!3d10.755292868615134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529292e8d3dd1%3A0xf15f5aad773c112b!2sHo%20Chi%20Minh%20City%2C%20Vietnam!5e0!3m2!1sen!2s!4v1732960441082!5m2!1sen!2s );
+(1, 'Da Nang, Vietnam', '', 914298300, '1231231@dtu.edu.vn', '', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -373,10 +377,13 @@ CREATE TABLE `team_details` (
 
 INSERT INTO `team_details` (`sr_no`, `name`, `picture`) VALUES
 (16, 'Manh', 'chill-guy1.png'),
-(17, 'Nhan', 'chill-guy2.png'),
-(18, 'Toan', 'chill-guy3.png'),
-(19, 'Tu', 'chill-guy4.png'),
-(20, 'Minh', 'chill-guy5.png'),
+(17, 'Toan', 'chill-guy2.png'),
+(18, 'Nhan', 'chill-guy3.png'),
+(19, 'Minh', 'chill-guy4.png'),
+(20, 'Tu', 'chill-guy5.png'),
+(21, 'Đạt', 'chill-guy6.png'),
+(22, 'Hưng', 'chill-guy7.png'),
+(23, 'Hiếu', 'chill-guy8.png');
 
 -- --------------------------------------------------------
 
